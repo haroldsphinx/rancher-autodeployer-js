@@ -1,0 +1,29 @@
+{
+  "name": "Rancher-Autodeployer",
+  "version": "0.0.12",
+  "description": "Node client for the Rancher API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Adedayo Akinpelu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "https": "^1.0.0",
+    "joi": "^7.0.0",
+    "logger": "0.0.1",
+    "restify": "^4.3.0",
+    "unirest": "^0.5.1",
+    "wreck": "^7.0.0"
+  },
+  "devDependencies": {
+    "code": "^2.0.1",
+    "lab": "^7.3.0"
+  }
+}
